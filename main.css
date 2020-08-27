@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(161, 197, 151);
+    width: 150px
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+}
+
+#sample {
+    columns: black;
+    background-color: white;
+}

@@ -1,0 +1,21 @@
+{
+    "name": "morse-for-whatsapp",
+    "version": "1.0",
+    "description": "Send and receive whatsapp messages in morse code",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["*://*.web.whatsapp.com/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Morse"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["tabs"]
+}
