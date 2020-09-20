@@ -7,7 +7,7 @@
         {
             "matches": ["*://*.web.whatsapp.com/*"],
             "js": ["content.js"],
-            "run_at": "document_idle"
+            "run_at": "document_end"
         }
     ],
     "browser_action": {
@@ -17,5 +17,5 @@
     "background": {
         "scripts": ["background.js"]
     },
-    "permissions": ["tabs"]
+    "permissions": ["tabs", "storage"]
 }
