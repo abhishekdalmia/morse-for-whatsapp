@@ -52,7 +52,7 @@ var textandmorse = {
 }
 
 function encode() {
-    testmorse = document.getElementsByClassName("_3FRCZ copyable-text selectable-text");
+    testmorse = document.getElementsByClassName("_1awRl copyable-text selectable-text");
     if (testmorse.length == 1) {
         return;
     }
@@ -90,7 +90,7 @@ function checkToggle() {
 
 function setMore(m = 5) {
     setTimeout(() => {
-        testmorse = document.getElementsByClassName("_3FRCZ copyable-text selectable-text");
+        testmorse = document.getElementsByClassName("_1awRl copyable-text selectable-text");
         if (testmorse.length == 1) {
             // console.log("Page completely loaded.");
             var myEncoderPoller = setInterval(checkToggle,100);
